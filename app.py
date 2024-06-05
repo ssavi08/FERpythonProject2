@@ -62,9 +62,6 @@ def main():
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         stframe.image(frame, channels="RGB")
 
-        if st.button("Stop"):
-            break
-
     cap.release()
 
 
